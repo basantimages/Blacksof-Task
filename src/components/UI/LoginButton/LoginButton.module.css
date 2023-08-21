@@ -1,0 +1,29 @@
+.login-btn {
+  display: flex;
+  padding: 0.3rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  background: linear-gradient(135deg, #3661ff 0%, #0085ff 100%);
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #1e4df8 0%, #1087f6 100%);
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.sideNav {
+  position: absolute;
+  bottom: 2rem;
+  width: max-content;
+  left: 50%;
+  font-size: 1rem;
+  transform: translateX(-50%) !important;
+}

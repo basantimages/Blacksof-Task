@@ -1,0 +1,11 @@
+.title {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #3661ff 150%);
+  display: inline-block;
+  padding-block: 0.8rem;
+}
+
+.title span {
+  position: relative;
+  left: 1.5rem;
+  font-weight: 500;
+}

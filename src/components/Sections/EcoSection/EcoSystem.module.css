@@ -1,0 +1,242 @@
+.eco-system-section {
+  background: linear-gradient(141deg, #fff 0%, rgba(226, 242, 255, 0.86) 69.9%, #ecf7ff 100%);
+  padding: 4rem 1.5rem;
+}
+
+.eco-system-section h2 {
+  font-weight: 400;
+  margin-block: 1rem 1.5rem;
+  font-size: 1.8rem;
+  max-width: 22rem;
+}
+
+.eco-system__working {
+  position: relative;
+}
+
+.eco-system__working--cards-1,
+.eco-system__working--cards-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.eco-system__working--card {
+  display: grid;
+  place-items: center;
+  margin-block: 1rem;
+}
+
+.eco-system__working--card picture {
+  border-radius: 1.5rem;
+  border: 1.722px dashed #d3d3d3;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  width: max-content;
+  z-index: 1;
+  background: linear-gradient(141deg, #fff 0%, rgba(226, 242, 255, 0.86) 69.9%, #ecf7ff 100%);
+}
+
+.eco-system__working--card picture img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.eco-system__working--card > div > picture > img {
+  height: 4rem;
+  width: 4rem;
+  border: 1.153px solid #3661ff;
+}
+
+.eco-system__working--card picture img {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1.645px solid #eaeaea;
+}
+
+.eco-system__working--card > h6 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.eco-system__working--card > p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* !Connectors */
+.connector__controller-gateway-cloud,
+.connector__gateway-users-evaluation,
+.connector__users-evaluation {
+  position: absolute;
+  display: none;
+}
+
+.connector__gateway-users-evaluation {
+  left: 50%;
+  top: 11rem;
+  height: 3rem;
+  width: 0px;
+  border-right: 1.722px dashed #d3d3d3;
+}
+
+.connector__users-evaluation {
+  left: 30%;
+  top: 14rem;
+  height: 5rem;
+  width: 40%;
+  border: 1.722px dashed #d3d3d3;
+  border-bottom: none;
+}
+
+/* !Media queries */
+@media (min-width: 28rem) {
+  .eco-system__working--card picture img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .eco-system__working--card > div > picture > img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .eco-system__working--card > p {
+    font-size: 0.6rem;
+  }
+
+  .eco-system__working {
+    display: grid;
+    row-gap: 3rem;
+  }
+
+  .eco-system__working--cards-1,
+  .eco-system__working--cards-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .eco-system__working--cards-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .controllers {
+    max-width: 11rem;
+  }
+
+  .gateway {
+    max-width: 10rem;
+    grid-column: span 2;
+  }
+
+  .cloud {
+    max-width: 8rem;
+    grid-area: 1/2/2/3;
+  }
+
+  .users {
+    grid-column: 2;
+    max-width: 11rem;
+  }
+
+  .evaluation {
+    grid-column: 4;
+  }
+
+  .controllers,
+  .gateway,
+  .cloud,
+  .users,
+  .evaluation {
+    margin-inline: auto;
+  }
+
+  /* handling connectors */
+  .connector__controller-gateway-cloud,
+  .connector__gateway-users-evaluation,
+  .connector__users-evaluation {
+    display: block;
+  }
+
+  .connector__controller-gateway-cloud {
+    height: 5rem;
+    top: 10.6rem;
+    left: 25%;
+    width: 50%;
+    border: 1.722px dashed #d3d3d3;
+    border-top: none;
+  }
+
+  .connector__gateway-users-evaluation {
+    top: 22.5rem;
+  }
+
+  .connector__users-evaluation {
+    top: 25.5rem;
+  }
+}
+
+@media (min-width: 37.5rem) {
+  .eco-system-section {
+    padding-inline: 3rem;
+  }
+}
+
+@media (min-width: 45rem) {
+  .eco-system-section {
+    padding-inline: 5rem;
+  }
+}
+
+@media (min-width: 47.5rem) {
+  .eco-system-section {
+    padding-inline: 1.5rem;
+  }
+
+  .eco-system__working {
+    row-gap: 5rem;
+  }
+
+  .eco-system__working--cards-1,
+  .eco-system__working--cards-2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .eco-system__working--cards-2 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .gateway {
+    grid-column: initial;
+  }
+
+  .cloud {
+    grid-area: initial;
+  }
+
+  /* handling connectors */
+  .connector__controller-gateway-cloud {
+    left: 20%;
+    right: 13%;
+    top: 4rem;
+    height: 1rem;
+    width: initial;
+    border: none;
+    border-top: 1.722px dashed #d3d3d3;
+  }
+
+  .connector__gateway-users-evaluation {
+    top: 11rem;
+  }
+
+  .connector__users-evaluation {
+    top: 14rem;
+  }
+}
+
+@media (min-width: 68rem) {
+  .eco-system-section {
+    padding-inline: 9rem;
+  }
+}
