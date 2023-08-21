@@ -30,14 +30,26 @@ I have successfully completed the Figma Clone project as per the instructions pr
 
 The entire project codebase has been documented in a GitHub repository for your review. Assumptions, decisions made during the implementation process, and an overview of the implementation process itself have been included in the documentation.
 
+[github](https://github.com/basantimages/Blacksof-Task)
+
 ## Deployment
 
-The project has been successfully deployed to a free hosting provider, namely [Netlify](https://blacksof-task.netlify.app/), allowing easy access and testing.
-
-## Evaluation Criteria
-
-The project meets the evaluation criteria set in the initial instructions. It encompasses functionality, responsiveness, design adherence, and accessibility considerations. Additional UI features have been implemented to enhance the user experience and showcase creativity while remaining true to the provided design.
+The project has been successfully deployed to a free hosting provider, namely [link](https://blacksof-task.netlify.app/), allowing easy access and testing.
 
 I am grateful for the opportunity to work on this project and look forward to any feedback or further steps from your end.
 
-[GitHub Repository](https://github.com/yourusername/your-repo-name)
+## Project Setup and Run Commands
+
+1. Clone the GitHub repository to your local machine:
+
+   ```shell
+   git clone https://github.com/basantimages/Blacksof-Task
+
+   cd your-repo-name
+
+   npm install
+
+   npm run dev
+   ```
+
+Access the project in your browser at http://localhost:3000.
