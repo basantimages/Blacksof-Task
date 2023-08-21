@@ -19,11 +19,11 @@ const Services = () => {
           aria-label='Services List 1'
         >
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>Saves on power consumption & related costs</p>
           </div>
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>Lowers downtimes</p>
           </div>
         </div>
@@ -35,11 +35,11 @@ const Services = () => {
           aria-label='Services List 2'
         >
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>Detects power thefts.</p>
           </div>
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>Ensures smart monitoring and control of the street light infrastructure.</p>
           </div>
         </div>
@@ -51,14 +51,14 @@ const Services = () => {
           aria-label='Services List 3'
         >
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>
               Ensures real-time actionable analytics on power failures, lamp malfunctions, voltage
               failures, etc.
             </p>
           </div>
           <div role='listitem'>
-            <img src='/image_info.png' alt='services' />
+            <img loading='lazy' src='/image_info.png' alt='services' />
             <p>Ensures security in the neighborhood</p>
           </div>
         </div>

@@ -28,7 +28,12 @@ const Header = () => {
   return (
     <>
       <header className={`${styles['main-header']} ${isScrolled ? styles.scrolled : ''}`}>
-        <img className={styles.logo} src='/smart lights_logo.svg' alt='Smart lights' />
+        <img
+          loading='lazy'
+          className={styles.logo}
+          src='/smart lights_logo.svg'
+          alt='Smart lights'
+        />
         <button
           className={`${styles['toggle-hamburger']} ${isButtonClicked ? styles['ham-button'] : ''}`}
           onClick={() => {

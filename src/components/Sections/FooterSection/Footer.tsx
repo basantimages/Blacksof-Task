@@ -8,7 +8,13 @@ const Footer = () => {
         role='navigation'
         aria-label='Footer Navigation'
       >
-        <img src='/smart lights_logo.svg' alt='Logo' data-aos='fade-up' data-aos-delay={0} />
+        <img
+          loading='lazy'
+          src='/smart lights_logo.svg'
+          alt='Logo'
+          data-aos='fade-up'
+          data-aos-delay={0}
+        />
         <div>
           <a href='#products' data-aos='fade-up' data-aos-delay={0}>
             Products

@@ -34,6 +34,7 @@ const Products = () => {
           aria-label='Product Image'
         >
           <img
+            loading='lazy'
             src='/image_placeholder.png'
             alt='Smart lights'
             data-aos='fade-up'
@@ -88,7 +89,7 @@ const Products = () => {
               panel for a group of 30-50 street lights.
             </p>
             <a href='#' data-aos='fade-up' data-aos-delay={150}>
-              Know More <img src='/icon_png.png' alt='Know more' />
+              Know More <img loading='lazy' src='/icon_png.png' alt='Know more' />
             </a>
           </div>
           <svg

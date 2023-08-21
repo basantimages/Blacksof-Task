@@ -7,7 +7,7 @@ const SideNav = ({ show, setShowHandler }: { show: boolean; setShowHandler: any 
     <>
       <nav className={`${styles['mobile-nav']} ${show ? styles.show : ''}`} role='navigation'>
         <div className={styles['logo']} role='banner'>
-          <img src='/smart lights_logo.svg' alt='Smart lights' />
+          <img loading='lazy' src='/smart lights_logo.svg' alt='Smart lights' />
         </div>
         <hr aria-hidden='true' />
         <ul className={styles['mobile-nav__items']} role='menu'>
